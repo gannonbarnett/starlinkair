@@ -1,0 +1,95 @@
+* {
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-variant-position: normal;
+    font-stretch: normal;
+    font-family: DIN_Regular, Arial, Verdana, sans-serif;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    margin: 0px;
+    background-image: url('mars_1.jpg');
+    background-size: cover; /* Adjusts the image size to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+.title-div {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    white-space: pre-wrap;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+}
+
+.poll {
+    margin: auto;
+    width: 80%;
+}
+
+.question {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.question-title {
+    text-align: center;
+    white-space: pre-wrap;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.answer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+    width: 200px;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.answer-text {
+    color: #000;
+    font: 12px / 18px Roboto, Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
